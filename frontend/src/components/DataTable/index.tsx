@@ -24,8 +24,8 @@ const DataTable = () => {
   }, [activePage]);
 
   const changePage = (index: number) => {
-    setActivePage(index)
-  }
+    setActivePage(index);
+  };
 
   return (
     <>
